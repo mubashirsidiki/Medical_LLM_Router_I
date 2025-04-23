@@ -81,8 +81,8 @@ if "query_classification" not in st.session_state:
 def configure_models():
     # Try to use NVIDIA model if available, otherwise fallback to OpenAI
     try:
-        # Settings.llm = NVIDIA(model=os.getenv("LLAMA_MODEL", "meta/llama-3.3-70b-instruct"))
-        Settings.llm = OpenAI(model=os.getenv("OPENAI_MODEL", "gpt-4o"))
+        Settings.llm = NVIDIA(model=os.getenv("NVIDIA_MODEL", "meta/llama-3.3-70b-instruct"))
+        # Settings.llm = OpenAI(model=os.getenv("OPENAI_MODEL", "gpt-4o"))
     except:
         logger.info("Falling back to OpenAI model")
         Settings.llm = OpenAI(model=os.getenv("OPENAI_MODEL", "gpt-4o"))
