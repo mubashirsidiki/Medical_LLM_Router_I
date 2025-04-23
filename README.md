@@ -9,6 +9,11 @@ Medical LLM Router analyzes patient medical history documents and answers health
 2. Retrieving relevant context from medical history
 3. Generating personalized responses from domain-specific agents
 
+## Flow Chart
+
+![flow-chart](https://github.com/user-attachments/assets/aae13f44-152e-4b25-8dfb-b66fb2af2d11)
+
+
 ## Demo
 
 Access the deployed application: [Medical LLM Router on Streamlit](https://medicalllmrouteri-k47vnn8io8qpz8v5bujtqt.streamlit.app/)
