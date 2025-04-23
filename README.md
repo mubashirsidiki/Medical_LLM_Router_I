@@ -11,7 +11,7 @@ Medical LLM Router analyzes patient medical history documents and answers health
 
 ## Demo
 
-Access the deployed application: [Medical LLM Router on Streamlit](https://medicalllmrouteri-k47vnn8io8v5bujtqt.streamlit.app/)
+Access the deployed application: [Medical LLM Router on Streamlit](https://medicalllmrouteri-k47vnn8io8qpz8v5bujtqt.streamlit.app/)
 
 ## Features
 
